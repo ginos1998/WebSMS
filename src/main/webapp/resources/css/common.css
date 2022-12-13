@@ -1,12 +1,30 @@
 @charset "UTF-8";
 
 .header-area {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     border-width:2px;
     border-color:#0014ff;
     border-style:solid;
-    text-align: center;
+
 }
 
+.header-title {
+    display: inline-block;
+    color: #ff0013;
+    margin: 10px;
+}
+
+.nav-pane {
+    display: inline-block;
+    margin: 5px;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 10px;
+}
 .sms-content {
     border-width:2px;
     border-color:#157d14;
