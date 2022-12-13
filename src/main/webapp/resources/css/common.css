@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.header-area {
+    border-width:2px;
+    border-color:#0014ff;
+    border-style:solid;
+    text-align: center;
+}
+
+.sms-content {
+    border-width:2px;
+    border-color:#157d14;
+    border-style:solid;
+}
+
+.sms-footer {
+    border-width:2px;
+    border-color:#ff0013;
+    border-style:solid;
+}
