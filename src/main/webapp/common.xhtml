@@ -13,19 +13,20 @@
    <div class="header-area">
       <ui:insert name="header">
       <ui:include src="templates/header.xhtml"/>
-      <div class="nav-pane">
-         <h:form>
-            <div class="nav-button">
-               <h:commandButton action="#{bbcommon.moveToHome()}" value="Home"/>
-            </div>
-            <div class="nav-button">
-               <h:commandButton action="#{bbcommon.moveToSchedule()}" value="Cronograma"/>
-            </div>
-            <div class="nav-button">
-               <h:commandButton action="#{bbcommon.moveToContact()}" value="Contacto"/>
-            </div>
+
+         <h:form styleClass="nav-pane">
+
+            <h:commandButton action="#{bbcommon.moveToHome()}" value="Home" styleClass="nav-button"/>
+
+            <h:commandButton action="#{bbcommon.moveToSchedule()}" value="Cronograma" styleClass="nav-button"/>
+
+            <h:commandButton action="#{bbcommon.moveToContact()}" value="Contacto" styleClass="nav-button"/>
+
+            <h:commandButton action="#{bbcommon.moveToLogin()}" value="Login" styleClass="nav-button"/>
+
+            <h:commandButton action="#{bbcommon.moveToRegister()}" value="Registrar" styleClass="nav-button"/>
          </h:form>
-      </div>
+
       </ui:insert>
    </div>
    <div class="sms-content">

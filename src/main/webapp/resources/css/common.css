@@ -2,23 +2,24 @@
 
 .header-area {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     border-width:2px;
     border-color:#0014ff;
     border-style:solid;
-
+    background-color: rgba(217,193,156,0.78);
+    margin-bottom: 10px;
 }
 
 .header-title {
+    box-sizing: border-box;
     display: inline-block;
     color: #ff0013;
     margin: 10px;
 }
 
 .nav-pane {
+    box-sizing: border-box;
     display: inline-block;
-    margin: 5px;
+    margin-left: 80px;
 }
 
 .nav-button {

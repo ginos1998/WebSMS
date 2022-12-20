@@ -14,5 +14,8 @@ public class BBCommon {
     return "home";
   }
 
+  public String moveToLogin() { return "login"; }
+
+  public String moveToRegister() { return "registro"; }
 
 }

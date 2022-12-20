@@ -6,8 +6,8 @@ public class Student extends Member{
     super();
   }
 
-  public Student(String name, String lastname, int dni) {
-    super(name, lastname, dni);
+  public Student(String name, String lastname, int dni, String bornDate, String address, String user, String password) {
+    super(name, lastname, dni, bornDate, address, user, password);
   }
 
   /**
@@ -56,5 +56,69 @@ public class Student extends Member{
   @Override
   public void setDni(int dni) {
     this.dni = dni;
+  }
+
+  /**
+   * @return 
+   */
+  @Override
+  public String getBornDate() {
+    return this.bornDate;
+  }
+
+  /**
+   * @param bornDate 
+   */
+  @Override
+  public void setBornDate(String bornDate) {
+    this.bornDate = bornDate;
+  }
+
+  /**
+   * @return 
+   */
+  @Override
+  public String getAddress() {
+    return this.address;
+  }
+
+  /**
+   * @param address 
+   */
+  @Override
+  public void setAddress(String address) {
+    this.address = address;
+  }
+
+  /**
+   * @return 
+   */
+  @Override
+  public String getUser() {
+    return this.user;
+  }
+
+  /**
+   * @param user 
+   */
+  @Override
+  public void setUser(String user) {
+    this.user = user;
+  }
+
+  /**
+   * @return 
+   */
+  @Override
+  public String getPassword() {
+    return this.password;
+  }
+
+  /**
+   * @param password 
+   */
+  @Override
+  public void setPassword(String password) {
+    this.password = password;
   }
 }
